@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 import { BiLogoGmail, BiSolidPhoneCall  } from "react-icons/bi";
 const Contact = () => {
   return (
-    <div id="contact" className="border-b border-gray-100 pb-4">
+    <div className="border-b border-gray-100 pb-4">
       <motion.h1 
       whileInView={{ opacity: 1, y: 0}}
       initial={{ opacity: 0, y: -100 }}
@@ -32,6 +32,7 @@ const Contact = () => {
             <p><a href={`mailto:${CONTACT.email}`} className="underline underline-offset-8">{CONTACT.email}</a></p>
         </motion.div>
       </div>
+      <div id="contact" />
     </div>
   )
 }
