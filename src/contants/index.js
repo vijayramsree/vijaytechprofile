@@ -1,7 +1,7 @@
 
 import w3c from "../assets/w3c.png";
 import microsoft from "../assets/microsoft.png";
-import linkedin from "../assets/linkedin.png";
+import linkedin from "../assets/linkedIn.png";
 import connectTech from "../assets/connectTech.jpg";
 import reactConf from "../assets/reactConf.png";
 
