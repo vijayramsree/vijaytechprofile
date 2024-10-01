@@ -14,6 +14,11 @@ const container = delay => ({
 })
 
 const Hero = () => {
+
+  const handleDownload = () => {
+    window.open('/Senior-Fullstack-Engineer-Vijayakumar.pdf', '_blank');
+  }
+
   return (
     <div className="mt-10 border-b border-gray-100 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
@@ -38,7 +43,9 @@ const Hero = () => {
                 animate="visible" 
                 className="mb-6 flex items-center lg:justify-center gap-4 text-2xl">
                     <a href="https://www.linkedin.com/in/vijayakumar-chandrasekar-84864778/" target="_blank"><FaLinkedin /></a>
-                    <a href="https://github.com/vijayramsree" target="_blank"><FaGithub /></a>
+                    {/* <a href="https://github.com/vijayramsree" target="_blank"><FaGithub /></a> */}
+                    <button className="border p-2 border-gray-500 rounded-full text-sm hover:bg-slate-800 hover:text-gray-200 hover:border-gray-100 cursor-pointer" onClick={handleDownload}>My Resume</button>
+                    <button className="border p-2 px-3 border-gray-200 bg-slate-800 text-gray-100 rounded-full text-sm hover:bg-white hover:text-slate-800 hover:border-slate-800 cursor-pointer"><a href="#contact">Contact Me</a></button>
                 </motion.div>
             </div>
         </div>
