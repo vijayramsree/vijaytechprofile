@@ -3,7 +3,7 @@ import w3c from "../assets/w3c.png";
 import microsoft from "../assets/microsoft.png";
 import linkedin from "../assets/linkedin.png";
 import connectTech from "../assets/connectTech.jpg";
-import reactConf from "../assets/ReactConf.png";
+import reactConf from "../assets/reactConf.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With +12 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, PHP, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
