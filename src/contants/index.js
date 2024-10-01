@@ -89,7 +89,7 @@ export const CONFERENCE = [
 ]
 
 export const CONTACT = {
-  address: "117 Inca Dove Ln, Leander, Texas - 78641 ",
+  address: "Leander, Texas - 78641 ",
   phoneNo: "+1 (408) 250 7449 ",
   email: "vijayramsree@gmail.com",
 };
